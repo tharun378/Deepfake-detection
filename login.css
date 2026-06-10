@@ -1,0 +1,55 @@
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  font-family:'Segoe UI',sans-serif;
+}
+
+.auth-card{
+  width:100%;
+  max-width:400px;
+  padding:40px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(20px);
+  box-shadow:0 15px 40px rgba(0,0,0,0.4);
+  text-align:center;
+  color:white;
+}
+
+.auth-card h2{
+  margin-bottom:10px;
+}
+
+input{
+  width:100%;
+  padding:14px;
+  margin:12px 0;
+  border-radius:30px;
+  border:none;
+  outline:none;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  border-radius:30px;
+  border:none;
+  background:#ff7a00;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(255,122,0,0.6);
+}
+
+.switch a{
+  color:#ff7a00;
+  font-weight:600;
+}

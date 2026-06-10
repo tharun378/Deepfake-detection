@@ -1,0 +1,41 @@
+body{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:'Segoe UI',sans-serif;
+  color:white;
+}
+
+.result-container{
+  width:100%;
+  max-width:650px;
+  padding:40px;
+  border-radius:25px;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(20px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+  text-align:center;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  border-radius:30px;
+  text-decoration:none;
+  background:#ff7a00;
+  color:white;
+  transition:0.3s;
+}
+
+.btn.outline{
+  background:transparent;
+  border:2px solid #ff7a00;
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(255,122,0,0.6);
+}

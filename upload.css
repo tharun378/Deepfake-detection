@@ -1,0 +1,49 @@
+body{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  font-family:'Segoe UI',sans-serif;
+  color:white;
+}
+
+.upload-container{
+  width:100%;
+  max-width:500px;
+  padding:40px;
+  border-radius:25px;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(20px);
+  text-align:center;
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
+
+.upload-box{
+  border:2px dashed #ff7a00;
+  border-radius:20px;
+  padding:50px 20px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.upload-box:hover{
+  background:rgba(255,122,0,0.1);
+}
+
+.scan-btn{
+  margin-top:20px;
+  padding:14px 30px;
+  border:none;
+  border-radius:30px;
+  background:#ff7a00;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.scan-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 20px rgba(255,122,0,0.6);
+}
